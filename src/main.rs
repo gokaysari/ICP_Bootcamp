@@ -43,8 +43,8 @@ fn main() {
     }
 
     let mut todo_list = TodoList { tasks: vec![] };
-    todo_list.add_task("Buy groceries".into());
-    todo_list.add_task("Finish homework".into());
+    todo_list.add_task("Homework 1 Done".into());
+    todo_list.add_task("Final Project Done".into());
     todo_list.list_tasks();
     todo_list.complete_task(0);
     todo_list.list_tasks();
